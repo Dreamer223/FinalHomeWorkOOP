@@ -21,7 +21,7 @@ public class View {
         while (true) {
             displayMenu();
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Считываем перевод строки
+            scanner.nextLine();
 
             if (choice == 0) {
                 System.out.println("Программа завершена.");

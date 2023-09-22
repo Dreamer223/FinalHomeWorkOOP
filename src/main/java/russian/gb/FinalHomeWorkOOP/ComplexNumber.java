@@ -5,16 +5,13 @@ public class ComplexNumber {
 
     public ComplexNumber(double real) {
         this.real = real;
-//        this.imaginary = imaginary;
+
     }
 
     public double getReal() {
         return real;
     }
 
-//    public double getImaginary() {
-//        return imaginary;
-//    }
 
     @Override
     public String toString() {
